@@ -1,0 +1,3060 @@
+
+============================================================
+FILE: Album.csv
+============================================================
+
+--- SCHEMA ---
+AlbumId : int64
+Title : str
+ArtistId : int64
+
+--- DISTINCT VALUES ---
+
+Column: AlbumId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64
+  65
+  66
+  67
+  68
+  69
+  70
+  71
+  72
+  73
+  74
+  75
+  76
+  77
+  78
+  79
+  80
+  81
+  82
+  83
+  84
+  85
+  86
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  96
+  97
+  98
+  99
+  100
+  ... (truncated)
+
+Column: Title
+  For Those About To Rock We Salute You
+  Balls to the Wall
+  Restless and Wild
+  Let There Be Rock
+  Big Ones
+  Jagged Little Pill
+  Facelift
+  Warner 25 Anos
+  Plays Metallica By Four Cellos
+  Audioslave
+  Out Of Exile
+  BackBeat Soundtrack
+  The Best Of Billy Cobham
+  Alcohol Fueled Brewtality Live! [Disc 1]
+  Alcohol Fueled Brewtality Live! [Disc 2]
+  Black Sabbath
+  Black Sabbath Vol. 4 (Remaster)
+  Body Count
+  Chemical Wedding
+  The Best Of Buddy Guy - The Millenium Collection
+  Prenda Minha
+  Sozinho Remix Ao Vivo
+  Minha Historia
+  Afrociberdelia
+  Da Lama Ao Caos
+  Acústico MTV [Live]
+  Cidade Negra - Hits
+  Na Pista
+  Axé Bahia 2001
+  BBC Sessions [Disc 1] [Live]
+  Bongo Fury
+  Carnaval 2001
+  Chill: Brazil (Disc 1)
+  Chill: Brazil (Disc 2)
+  Garage Inc. (Disc 1)
+  Greatest Hits II
+  Greatest Kiss
+  Heart of the Night
+  International Superhits
+  Into The Light
+  Meus Momentos
+  Minha História
+  MK III The Final Concerts [Disc 1]
+  Physical Graffiti [Disc 1]
+  Sambas De Enredo 2001
+  Supernatural
+  The Best of Ed Motta
+  The Essential Miles Davis [Disc 1]
+  The Essential Miles Davis [Disc 2]
+  The Final Concerts (Disc 2)
+  Up An' Atom
+  Vinícius De Moraes - Sem Limite
+  Vozes do MPB
+  Chronicle, Vol. 1
+  Chronicle, Vol. 2
+  Cássia Eller - Coleção Sem Limite [Disc 2]
+  Cássia Eller - Sem Limite [Disc 1]
+  Come Taste The Band
+  Deep Purple In Rock
+  Fireball
+  Knocking at Your Back Door: The Best Of Deep Purple in the 80's
+  Machine Head
+  Purpendicular
+  Slaves And Masters
+  Stormbringer
+  The Battle Rages On
+  Vault: Def Leppard's Greatest Hits
+  Outbreak
+  Djavan Ao Vivo - Vol. 02
+  Djavan Ao Vivo - Vol. 1
+  Elis Regina-Minha História
+  The Cream Of Clapton
+  Unplugged
+  Album Of The Year
+  Angel Dust
+  King For A Day Fool For A Lifetime
+  The Real Thing
+  Deixa Entrar
+  In Your Honor [Disc 1]
+  In Your Honor [Disc 2]
+  One By One
+  The Colour And The Shape
+  My Way: The Best Of Frank Sinatra [Disc 1]
+  Roda De Funk
+  As Canções de Eu Tu Eles
+  Quanta Gente Veio Ver (Live)
+  Quanta Gente Veio ver--Bônus De Carnaval
+  Faceless
+  American Idiot
+  Appetite for Destruction
+  Use Your Illusion I
+  Use Your Illusion II
+  Blue Moods
+  A Matter of Life and Death
+  A Real Dead One
+  A Real Live One
+  Brave New World
+  Dance Of Death
+  Fear Of The Dark
+  Iron Maiden
+  ... (truncated)
+
+Column: ArtistId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  37
+  68
+  69
+  70
+  76
+  77
+  78
+  79
+  80
+  41
+  81
+  82
+  83
+  84
+  85
+  86
+  27
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  46
+  96
+  97
+  98
+  99
+  100
+  101
+  102
+  103
+  104
+  105
+  42
+  106
+  108
+  109
+  110
+  111
+  112
+  113
+  114
+  115
+  116
+  117
+  118
+  120
+  121
+  122
+  124
+  125
+  126
+  127
+  128
+  130
+  131
+  132
+  133
+  134
+  135
+  136
+  137
+  ... (truncated)
+
+============================================================
+FILE: Artist.csv
+============================================================
+
+--- SCHEMA ---
+ArtistId : int64
+Name : str
+
+--- DISTINCT VALUES ---
+
+Column: ArtistId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64
+  65
+  66
+  67
+  68
+  69
+  70
+  71
+  72
+  73
+  74
+  75
+  76
+  77
+  78
+  79
+  80
+  81
+  82
+  83
+  84
+  85
+  86
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  96
+  97
+  98
+  99
+  100
+  ... (truncated)
+
+Column: Name
+  AC/DC
+  Accept
+  Aerosmith
+  Alanis Morissette
+  Alice In Chains
+  Antônio Carlos Jobim
+  Apocalyptica
+  Audioslave
+  BackBeat
+  Billy Cobham
+  Black Label Society
+  Black Sabbath
+  Body Count
+  Bruce Dickinson
+  Buddy Guy
+  Caetano Veloso
+  Chico Buarque
+  Chico Science & Nação Zumbi
+  Cidade Negra
+  Cláudio Zoli
+  Various Artists
+  Led Zeppelin
+  Frank Zappa & Captain Beefheart
+  Marcos Valle
+  Milton Nascimento & Bebeto
+  Azymuth
+  Gilberto Gil
+  João Gilberto
+  Bebel Gilberto
+  Jorge Vercilo
+  Baby Consuelo
+  Ney Matogrosso
+  Luiz Melodia
+  Nando Reis
+  Pedro Luís & A Parede
+  O Rappa
+  Ed Motta
+  Banda Black Rio
+  Fernanda Porto
+  Os Cariocas
+  Elis Regina
+  Milton Nascimento
+  A Cor Do Som
+  Kid Abelha
+  Sandra De Sá
+  Jorge Ben
+  Hermeto Pascoal
+  Barão Vermelho
+  Edson, DJ Marky & DJ Patife Featuring Fernanda Porto
+  Metallica
+  Queen
+  Kiss
+  Spyro Gyra
+  Green Day
+  David Coverdale
+  Gonzaguinha
+  Os Mutantes
+  Deep Purple
+  Santana
+  Santana Feat. Dave Matthews
+  Santana Feat. Everlast
+  Santana Feat. Rob Thomas
+  Santana Feat. Lauryn Hill & Cee-Lo
+  Santana Feat. The Project G&B
+  Santana Feat. Maná
+  Santana Feat. Eagle-Eye Cherry
+  Santana Feat. Eric Clapton
+  Miles Davis
+  Gene Krupa
+  Toquinho & Vinícius
+  Vinícius De Moraes & Baden Powell
+  Vinícius De Moraes
+  Vinícius E Qurteto Em Cy
+  Vinícius E Odette Lara
+  Vinicius, Toquinho & Quarteto Em Cy
+  Creedence Clearwater Revival
+  Cássia Eller
+  Def Leppard
+  Dennis Chambers
+  Djavan
+  Eric Clapton
+  Faith No More
+  Falamansa
+  Foo Fighters
+  Frank Sinatra
+  Funk Como Le Gusta
+  Godsmack
+  Guns N' Roses
+  Incognito
+  Iron Maiden
+  James Brown
+  Jamiroquai
+  JET
+  Jimi Hendrix
+  Joe Satriani
+  Jota Quest
+  João Suplicy
+  Judas Priest
+  Legião Urbana
+  Lenny Kravitz
+  ... (truncated)
+
+============================================================
+FILE: Customer.csv
+============================================================
+
+--- SCHEMA ---
+CustomerId : int64
+FirstName : str
+LastName : str
+Company : str
+Address : str
+City : str
+State : str
+Country : str
+PostalCode : str
+Phone : str
+Fax : str
+Email : str
+SupportRepId : int64
+
+--- DISTINCT VALUES ---
+
+Column: CustomerId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+
+Column: FirstName
+  Luís
+  Leonie
+  François
+  Bjørn
+  František
+  Helena
+  Astrid
+  Daan
+  Kara
+  Eduardo
+  Alexandre
+  Roberto
+  Fernanda
+  Mark
+  Jennifer
+  Frank
+  Jack
+  Michelle
+  Tim
+  Dan
+  Kathy
+  Heather
+  John
+  Victor
+  Richard
+  Patrick
+  Julia
+  Robert
+  Edward
+  Martha
+  Aaron
+  Ellie
+  João
+  Madalena
+  Hannah
+  Fynn
+  Niklas
+  Camille
+  Dominique
+  Marc
+  Wyatt
+  Isabelle
+  Terhi
+  Ladislav
+  Hugh
+  Lucas
+  Johannes
+  Stanisław
+  Enrique
+  Joakim
+  Emma
+  Phil
+  Steve
+  Diego
+  Luis
+  Manoj
+  Puja
+
+Column: LastName
+  Gonçalves
+  Köhler
+  Tremblay
+  Hansen
+  Wichterlová
+  Holý
+  Gruber
+  Peeters
+  Nielsen
+  Martins
+  Rocha
+  Almeida
+  Ramos
+  Philips
+  Peterson
+  Harris
+  Smith
+  Brooks
+  Goyer
+  Miller
+  Chase
+  Leacock
+  Gordon
+  Ralston
+  Stevens
+  Cunningham
+  Gray
+  Barnett
+  Brown
+  Francis
+  Silk
+  Mitchell
+  Sullivan
+  Fernandes
+  Sampaio
+  Schneider
+  Zimmermann
+  Schröder
+  Bernard
+  Lefebvre
+  Dubois
+  Girard
+  Mercier
+  Hämäläinen
+  Kovács
+  O'Reilly
+  Mancini
+  Van der Berg
+  Wójcik
+  Muñoz
+  Johansson
+  Jones
+  Hughes
+  Murray
+  Taylor
+  Gutiérrez
+  Rojas
+  Pareek
+  Srivastava
+
+Column: Company
+  Embraer - Empresa Brasileira de Aeronáutica S.A.
+  JetBrains s.r.o.
+  Woodstock Discos
+  Banco do Brasil S.A.
+  Riotur
+  Telus
+  Rogers Canada
+  Google Inc.
+  Microsoft Corporation
+  Apple Inc.
+
+Column: Address
+  Av. Brigadeiro Faria Lima, 2170
+  Theodor-Heuss-Straße 34
+  1498 rue Bélanger
+  Ullevålsveien 14
+  Klanova 9/506
+  Rilská 3174/6
+  Rotenturmstraße 4, 1010 Innere Stadt
+  Grétrystraat 63
+  Sønder Boulevard 51
+  Rua Dr. Falcão Filho, 155
+  Av. Paulista, 2022
+  Praça Pio X, 119
+  Qe 7 Bloco G
+  8210 111 ST NW
+  700 W Pender Street
+  1600 Amphitheatre Parkway
+  1 Microsoft Way
+  627 Broadway
+  1 Infinite Loop
+  541 Del Medio Avenue
+  801 W 4th Street
+  120 S Orange Ave
+  69 Salem Street
+  162 E Superior Street
+  319 N. Frances Street
+  2211 W Berry Street
+  1033 N Park Ave
+  302 S 700 E
+  796 Dundas Street West
+  230 Elgin Street
+  194A Chain Lake Drive
+  696 Osborne Street
+  5112 48 Street
+  Rua da Assunção 53
+  Rua dos Campeões Europeus de Viena, 4350
+  Tauentzienstraße 8
+  Berger Straße 10
+  Barbarossastraße 19
+  4, Rue Milton
+  8, Rue Hanovre
+  11, Place Bellecour
+  9, Place Louis Barthou
+  68, Rue Jouvence
+  Porthaninkatu 9
+  Erzsébet krt. 58.
+  3 Chatham Street
+  Via Degli Scipioni, 43
+  Lijnbaansgracht 120bg
+  Ordynacka 10
+  C/ San Bernardo 85
+  Celsiusg. 9
+  202 Hoxton Street
+  113 Lupus St
+  110 Raeburn Pl
+  421 Bourke Street
+  307 Macacha Güemes
+  Calle Lira, 198
+  12,Community Centre
+  3,Raj Bhavan Road
+
+Column: City
+  São José dos Campos
+  Stuttgart
+  Montréal
+  Oslo
+  Prague
+  Vienne
+  Brussels
+  Copenhagen
+  São Paulo
+  Rio de Janeiro
+  Brasília
+  Edmonton
+  Vancouver
+  Mountain View
+  Redmond
+  New York
+  Cupertino
+  Reno
+  Orlando
+  Boston
+  Chicago
+  Madison
+  Fort Worth
+  Tucson
+  Salt Lake City
+  Toronto
+  Ottawa
+  Halifax
+  Winnipeg
+  Yellowknife
+  Lisbon
+  Porto
+  Berlin
+  Frankfurt
+  Paris
+  Lyon
+  Bordeaux
+  Dijon
+  Helsinki
+  Budapest
+  Dublin
+  Rome
+  Amsterdam
+  Warsaw
+  Madrid
+  Stockholm
+  London
+  Edinburgh 
+  Sidney
+  Buenos Aires
+  Santiago
+  Delhi
+  Bangalore
+
+Column: State
+  SP
+  QC
+  RJ
+  DF
+  AB
+  BC
+  CA
+  WA
+  NY
+  NV
+  FL
+  MA
+  IL
+  WI
+  TX
+  AZ
+  UT
+  ON
+  NS
+  MB
+  NT
+  Dublin
+  RM
+  VV
+  NSW
+
+Column: Country
+  Brazil
+  Germany
+  Canada
+  Norway
+  Czech Republic
+  Austria
+  Belgium
+  Denmark
+  USA
+  Portugal
+  France
+  Finland
+  Hungary
+  Ireland
+  Italy
+  Netherlands
+  Poland
+  Spain
+  Sweden
+  United Kingdom
+  Australia
+  Argentina
+  Chile
+  India
+
+Column: PostalCode
+  12227-000
+  70174
+  H2G 1A7
+  0171
+  14700
+  14300
+  1010
+  1000
+  1720
+  01007-010
+  01310-200
+  20040-020
+  71020-677
+  T6G 2C7
+  V6C 1G8
+  94043-1351
+  98052-8300
+  10012-2612
+  95014
+  94040-111
+  89503
+  32801
+  2113
+  60611
+  53703
+  76110
+  85719
+  84102
+  M6J 1V1
+  K2P 1L7
+  B3S 1C5
+  R3L 2B9
+  X1A 1N6
+  10789
+  60316
+  10779
+  75009
+  75002
+  69002
+  33000
+  21000
+  00530
+  H-1073
+  00192
+  1016
+  00-358
+  28015
+  11230
+  N1 5LH
+  SW1V 3EN
+  EH4 1HH
+  2010
+  1106
+  110017
+  560001
+
+Column: Phone
+  +55 (12) 3923-5555
+  +49 0711 2842222
+  +1 (514) 721-4711
+  +47 22 44 22 22
+  +420 2 4172 5555
+  +420 2 4177 0449
+  +43 01 5134505
+  +32 02 219 03 03
+  +453 3331 9991
+  +55 (11) 3033-5446
+  +55 (11) 3055-3278
+  +55 (21) 2271-7000
+  +55 (61) 3363-5547
+  +1 (780) 434-4554
+  +1 (604) 688-2255
+  +1 (650) 253-0000
+  +1 (425) 882-8080
+  +1 (212) 221-3546
+  +1 (408) 996-1010
+  +1 (650) 644-3358
+  +1 (775) 223-7665
+  +1 (407) 999-7788
+  +1 (617) 522-1333
+  +1 (312) 332-3232
+  +1 (608) 257-0597
+  +1 (817) 924-7272
+  +1 (520) 622-4200
+  +1 (801) 531-7272
+  +1 (416) 363-8888
+  +1 (613) 234-3322
+  +1 (902) 450-0450
+  +1 (204) 452-6452
+  +1 (867) 920-2233
+  +351 (213) 466-111
+  +351 (225) 022-448
+  +49 030 26550280
+  +49 069 40598889
+  +49 030 2141444
+  +33 01 49 70 65 65
+  +33 01 47 42 71 71
+  +33 04 78 30 30 30
+  +33 05 56 96 96 96
+  +33 03 80 73 66 99
+  +358 09 870 2000
+  +353 01 6792424
+  +39 06 39733434
+  +31 020 6223130
+  +48 22 828 37 39
+  +34 914 454 454
+  +46 08-651 52 52
+  +44 020 7707 0707
+  +44 020 7976 5722
+  +44 0131 315 3300
+  +61 (02) 9332 3633
+  +54 (0)11 4311 4333
+  +56 (0)2 635 4444
+  +91 0124 39883988
+  +91 080 22289999
+
+Column: Fax
+  +55 (12) 3923-5566
+  +420 2 4172 5555
+  +55 (11) 3033-4564
+  +55 (11) 3055-8131
+  +55 (21) 2271-7070
+  +55 (61) 3363-7855
+  +1 (780) 434-5565
+  +1 (604) 688-8756
+  +1 (650) 253-0000
+  +1 (425) 882-8081
+  +1 (212) 221-4679
+  +1 (408) 996-1011
+
+Column: Email
+  luisg@embraer.com.br
+  leonekohler@surfeu.de
+  ftremblay@gmail.com
+  bjorn.hansen@yahoo.no
+  frantisekw@jetbrains.com
+  hholy@gmail.com
+  astrid.gruber@apple.at
+  daan_peeters@apple.be
+  kara.nielsen@jubii.dk
+  eduardo@woodstock.com.br
+  alero@uol.com.br
+  roberto.almeida@riotur.gov.br
+  fernadaramos4@uol.com.br
+  mphilips12@shaw.ca
+  jenniferp@rogers.ca
+  fharris@google.com
+  jacksmith@microsoft.com
+  michelleb@aol.com
+  tgoyer@apple.com
+  dmiller@comcast.com
+  kachase@hotmail.com
+  hleacock@gmail.com
+  johngordon22@yahoo.com
+  fralston@gmail.com
+  vstevens@yahoo.com
+  ricunningham@hotmail.com
+  patrick.gray@aol.com
+  jubarnett@gmail.com
+  robbrown@shaw.ca
+  edfrancis@yachoo.ca
+  marthasilk@gmail.com
+  aaronmitchell@yahoo.ca
+  ellie.sullivan@shaw.ca
+  jfernandes@yahoo.pt
+  masampaio@sapo.pt
+  hannah.schneider@yahoo.de
+  fzimmermann@yahoo.de
+  nschroder@surfeu.de
+  camille.bernard@yahoo.fr
+  dominiquelefebvre@gmail.com
+  marc.dubois@hotmail.com
+  wyatt.girard@yahoo.fr
+  isabelle_mercier@apple.fr
+  terhi.hamalainen@apple.fi
+  ladislav_kovacs@apple.hu
+  hughoreilly@apple.ie
+  lucas.mancini@yahoo.it
+  johavanderberg@yahoo.nl
+  stanisław.wójcik@wp.pl
+  enrique_munoz@yahoo.es
+  joakim.johansson@yahoo.se
+  emma_jones@hotmail.com
+  phil.hughes@gmail.com
+  steve.murray@yahoo.uk
+  mark.taylor@yahoo.au
+  diego.gutierrez@yahoo.ar
+  luisrojas@yahoo.cl
+  manoj.pareek@rediff.com
+  puja_srivastava@yahoo.in
+
+Column: SupportRepId
+  3
+  5
+  4
+
+============================================================
+FILE: Employee.csv
+============================================================
+
+--- SCHEMA ---
+EmployeeId : int64
+LastName : str
+FirstName : str
+Title : str
+ReportsTo : float64
+BirthDate : str
+HireDate : str
+Address : str
+City : str
+State : str
+Country : str
+PostalCode : str
+Phone : str
+Fax : str
+Email : str
+
+--- DISTINCT VALUES ---
+
+Column: EmployeeId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+
+Column: LastName
+  Adams
+  Edwards
+  Peacock
+  Park
+  Johnson
+  Mitchell
+  King
+  Callahan
+
+Column: FirstName
+  Andrew
+  Nancy
+  Jane
+  Margaret
+  Steve
+  Michael
+  Robert
+  Laura
+
+Column: Title
+  General Manager
+  Sales Manager
+  Sales Support Agent
+  IT Manager
+  IT Staff
+
+Column: ReportsTo
+  1.0
+  2.0
+  6.0
+
+Column: BirthDate
+  1962-02-18 00:00:00
+  1958-12-08 00:00:00
+  1973-08-29 00:00:00
+  1947-09-19 00:00:00
+  1965-03-03 00:00:00
+  1973-07-01 00:00:00
+  1970-05-29 00:00:00
+  1968-01-09 00:00:00
+
+Column: HireDate
+  2002-08-14 00:00:00
+  2002-05-01 00:00:00
+  2002-04-01 00:00:00
+  2003-05-03 00:00:00
+  2003-10-17 00:00:00
+  2004-01-02 00:00:00
+  2004-03-04 00:00:00
+
+Column: Address
+  11120 Jasper Ave NW
+  825 8 Ave SW
+  1111 6 Ave SW
+  683 10 Street SW
+  7727B 41 Ave
+  5827 Bowness Road NW
+  590 Columbia Boulevard West
+  923 7 ST NW
+
+Column: City
+  Edmonton
+  Calgary
+  Lethbridge
+
+Column: State
+  AB
+
+Column: Country
+  Canada
+
+Column: PostalCode
+  T5K 2N1
+  T2P 2T3
+  T2P 5M5
+  T2P 5G3
+  T3B 1Y7
+  T3B 0C5
+  T1K 5N8
+  T1H 1Y8
+
+Column: Phone
+  +1 (780) 428-9482
+  +1 (403) 262-3443
+  +1 (403) 263-4423
+  1 (780) 836-9987
+  +1 (403) 246-9887
+  +1 (403) 456-9986
+  +1 (403) 467-3351
+
+Column: Fax
+  +1 (780) 428-3457
+  +1 (403) 262-3322
+  +1 (403) 262-6712
+  +1 (403) 263-4289
+  1 (780) 836-9543
+  +1 (403) 246-9899
+  +1 (403) 456-8485
+  +1 (403) 467-8772
+
+Column: Email
+  andrew@chinookcorp.com
+  nancy@chinookcorp.com
+  jane@chinookcorp.com
+  margaret@chinookcorp.com
+  steve@chinookcorp.com
+  michael@chinookcorp.com
+  robert@chinookcorp.com
+  laura@chinookcorp.com
+
+============================================================
+FILE: Genre.csv
+============================================================
+
+--- SCHEMA ---
+GenreId : int64
+Name : str
+
+--- DISTINCT VALUES ---
+
+Column: GenreId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+
+Column: Name
+  Rock
+  Jazz
+  Metal
+  Alternative & Punk
+  Rock And Roll
+  Blues
+  Latin
+  Reggae
+  Pop
+  Soundtrack
+  Bossa Nova
+  Easy Listening
+  Heavy Metal
+  R&B/Soul
+  Electronica/Dance
+  World
+  Hip Hop/Rap
+  Science Fiction
+  TV Shows
+  Sci Fi & Fantasy
+  Drama
+  Comedy
+  Alternative
+  Classical
+  Opera
+
+============================================================
+FILE: Invoice.csv
+============================================================
+
+--- SCHEMA ---
+InvoiceId : int64
+CustomerId : int64
+InvoiceDate : str
+BillingAddress : str
+BillingCity : str
+BillingState : str
+BillingCountry : str
+BillingPostalCode : str
+Total : float64
+
+--- DISTINCT VALUES ---
+
+Column: InvoiceId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64
+  65
+  66
+  67
+  68
+  69
+  70
+  71
+  72
+  73
+  74
+  75
+  76
+  77
+  78
+  79
+  80
+  81
+  82
+  83
+  84
+  85
+  86
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  96
+  97
+  98
+  99
+  100
+  ... (truncated)
+
+Column: CustomerId
+  2
+  4
+  8
+  14
+  23
+  37
+  38
+  40
+  42
+  46
+  52
+  16
+  17
+  19
+  21
+  25
+  31
+  54
+  55
+  57
+  59
+  10
+  33
+  34
+  36
+  48
+  12
+  13
+  15
+  27
+  50
+  51
+  53
+  6
+  29
+  30
+  32
+  44
+  9
+  11
+  47
+  49
+  26
+  28
+  5
+  7
+  43
+  45
+  22
+  24
+  1
+  3
+  39
+  41
+  18
+  20
+  56
+  58
+  35
+
+Column: InvoiceDate
+  2009-01-01 00:00:00
+  2009-01-02 00:00:00
+  2009-01-03 00:00:00
+  2009-01-06 00:00:00
+  2009-01-11 00:00:00
+  2009-01-19 00:00:00
+  2009-02-01 00:00:00
+  2009-02-02 00:00:00
+  2009-02-03 00:00:00
+  2009-02-06 00:00:00
+  2009-02-11 00:00:00
+  2009-02-19 00:00:00
+  2009-03-04 00:00:00
+  2009-03-05 00:00:00
+  2009-03-06 00:00:00
+  2009-03-09 00:00:00
+  2009-03-14 00:00:00
+  2009-03-22 00:00:00
+  2009-04-04 00:00:00
+  2009-04-05 00:00:00
+  2009-04-06 00:00:00
+  2009-04-09 00:00:00
+  2009-04-14 00:00:00
+  2009-04-22 00:00:00
+  2009-05-05 00:00:00
+  2009-05-06 00:00:00
+  2009-05-07 00:00:00
+  2009-05-10 00:00:00
+  2009-05-15 00:00:00
+  2009-05-23 00:00:00
+  2009-06-05 00:00:00
+  2009-06-06 00:00:00
+  2009-06-07 00:00:00
+  2009-06-10 00:00:00
+  2009-06-15 00:00:00
+  2009-06-23 00:00:00
+  2009-07-06 00:00:00
+  2009-07-07 00:00:00
+  2009-07-08 00:00:00
+  2009-07-11 00:00:00
+  2009-07-16 00:00:00
+  2009-07-24 00:00:00
+  2009-08-06 00:00:00
+  2009-08-07 00:00:00
+  2009-08-08 00:00:00
+  2009-08-11 00:00:00
+  2009-08-16 00:00:00
+  2009-08-24 00:00:00
+  2009-09-06 00:00:00
+  2009-09-07 00:00:00
+  2009-09-08 00:00:00
+  2009-09-11 00:00:00
+  2009-09-16 00:00:00
+  2009-09-24 00:00:00
+  2009-10-07 00:00:00
+  2009-10-08 00:00:00
+  2009-10-09 00:00:00
+  2009-10-12 00:00:00
+  2009-10-17 00:00:00
+  2009-10-25 00:00:00
+  2009-11-07 00:00:00
+  2009-11-08 00:00:00
+  2009-11-09 00:00:00
+  2009-11-12 00:00:00
+  2009-11-17 00:00:00
+  2009-11-25 00:00:00
+  2009-12-08 00:00:00
+  2009-12-09 00:00:00
+  2009-12-10 00:00:00
+  2009-12-13 00:00:00
+  2009-12-18 00:00:00
+  2009-12-26 00:00:00
+  2010-01-08 00:00:00
+  2010-01-09 00:00:00
+  2010-01-10 00:00:00
+  2010-01-13 00:00:00
+  2010-01-18 00:00:00
+  2010-01-26 00:00:00
+  2010-02-08 00:00:00
+  2010-02-09 00:00:00
+  2010-02-10 00:00:00
+  2010-02-13 00:00:00
+  2010-02-18 00:00:00
+  2010-02-26 00:00:00
+  2010-03-11 00:00:00
+  2010-03-12 00:00:00
+  2010-03-13 00:00:00
+  2010-03-16 00:00:00
+  2010-03-21 00:00:00
+  2010-03-29 00:00:00
+  2010-04-11 00:00:00
+  2010-04-12 00:00:00
+  2010-04-13 00:00:00
+  2010-04-16 00:00:00
+  2010-04-21 00:00:00
+  2010-04-29 00:00:00
+  2010-05-12 00:00:00
+  2010-05-13 00:00:00
+  2010-05-14 00:00:00
+  2010-05-17 00:00:00
+  ... (truncated)
+
+Column: BillingAddress
+  Theodor-Heuss-Straße 34
+  Ullevålsveien 14
+  Grétrystraat 63
+  8210 111 ST NW
+  69 Salem Street
+  Berger Straße 10
+  Barbarossastraße 19
+  8, Rue Hanovre
+  9, Place Louis Barthou
+  3 Chatham Street
+  202 Hoxton Street
+  1600 Amphitheatre Parkway
+  1 Microsoft Way
+  1 Infinite Loop
+  801 W 4th Street
+  319 N. Frances Street
+  194A Chain Lake Drive
+  110 Raeburn Pl
+  421 Bourke Street
+  Calle Lira, 198
+  3,Raj Bhavan Road
+  Rua Dr. Falcão Filho, 155
+  5112 48 Street
+  Rua da Assunção 53
+  Tauentzienstraße 8
+  Lijnbaansgracht 120bg
+  Praça Pio X, 119
+  Qe 7 Bloco G
+  700 W Pender Street
+  1033 N Park Ave
+  C/ San Bernardo 85
+  Celsiusg. 9
+  113 Lupus St
+  Rilská 3174/6
+  796 Dundas Street West
+  230 Elgin Street
+  696 Osborne Street
+  Porthaninkatu 9
+  Sønder Boulevard 51
+  Av. Paulista, 2022
+  Via Degli Scipioni, 43
+  Ordynacka 10
+  2211 W Berry Street
+  302 S 700 E
+  Klanova 9/506
+  Rotenturmstraße 4, 1010 Innere Stadt
+  68, Rue Jouvence
+  Erzsébet krt. 58.
+  120 S Orange Ave
+  162 E Superior Street
+  Av. Brigadeiro Faria Lima, 2170
+  1498 rue Bélanger
+  4, Rue Milton
+  11, Place Bellecour
+  627 Broadway
+  541 Del Medio Avenue
+  307 Macacha Güemes
+  12,Community Centre
+  Rua dos Campeões Europeus de Viena, 4350
+
+Column: BillingCity
+  Stuttgart
+  Oslo
+  Brussels
+  Edmonton
+  Boston
+  Frankfurt
+  Berlin
+  Paris
+  Bordeaux
+  Dublin
+  London
+  Mountain View
+  Redmond
+  Cupertino
+  Reno
+  Madison
+  Halifax
+  Edinburgh 
+  Sidney
+  Santiago
+  Bangalore
+  São Paulo
+  Yellowknife
+  Lisbon
+  Amsterdam
+  Rio de Janeiro
+  Brasília
+  Vancouver
+  Tucson
+  Madrid
+  Stockholm
+  Prague
+  Toronto
+  Ottawa
+  Winnipeg
+  Helsinki
+  Copenhagen
+  Rome
+  Warsaw
+  Fort Worth
+  Salt Lake City
+  Vienne
+  Dijon
+  Budapest
+  Orlando
+  Chicago
+  São José dos Campos
+  Montréal
+  Lyon
+  New York
+  Buenos Aires
+  Delhi
+  Porto
+
+Column: BillingState
+  AB
+  MA
+  Dublin
+  CA
+  WA
+  NV
+  WI
+  NS
+  NSW
+  SP
+  NT
+  VV
+  RJ
+  DF
+  BC
+  AZ
+  ON
+  MB
+  RM
+  TX
+  UT
+  FL
+  IL
+  QC
+  NY
+
+Column: BillingCountry
+  Germany
+  Norway
+  Belgium
+  Canada
+  USA
+  France
+  Ireland
+  United Kingdom
+  Australia
+  Chile
+  India
+  Brazil
+  Portugal
+  Netherlands
+  Spain
+  Sweden
+  Czech Republic
+  Finland
+  Denmark
+  Italy
+  Poland
+  Austria
+  Hungary
+  Argentina
+
+Column: BillingPostalCode
+  70174
+  0171
+  1000
+  T6G 2C7
+  2113
+  60316
+  10779
+  75002
+  33000
+  N1 5LH
+  94043-1351
+  98052-8300
+  95014
+  89503
+  53703
+  B3S 1C5
+  EH4 1HH
+  2010
+  560001
+  01007-010
+  X1A 1N6
+  10789
+  1016
+  20040-020
+  71020-677
+  V6C 1G8
+  85719
+  28015
+  11230
+  SW1V 3EN
+  14300
+  M6J 1V1
+  K2P 1L7
+  R3L 2B9
+  00530
+  1720
+  01310-200
+  00192
+  00-358
+  76110
+  84102
+  14700
+  1010
+  21000
+  H-1073
+  32801
+  60611
+  12227-000
+  H2G 1A7
+  75009
+  69002
+  10012-2612
+  94040-111
+  1106
+  110017
+
+Column: Total
+  1.98
+  3.96
+  5.94
+  8.91
+  13.86
+  0.99
+  6.94
+  17.91
+  18.86
+  21.86
+  1.99
+  3.98
+  9.91
+  15.86
+  14.91
+  2.98
+  7.96
+  8.94
+  10.91
+  23.86
+  16.86
+  11.94
+  25.86
+
+============================================================
+FILE: InvoiceLine.csv
+============================================================
+
+--- SCHEMA ---
+InvoiceLineId : int64
+InvoiceId : int64
+TrackId : int64
+UnitPrice : float64
+Quantity : int64
+
+--- DISTINCT VALUES ---
+
+Column: InvoiceLineId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64
+  65
+  66
+  67
+  68
+  69
+  70
+  71
+  72
+  73
+  74
+  75
+  76
+  77
+  78
+  79
+  80
+  81
+  82
+  83
+  84
+  85
+  86
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  96
+  97
+  98
+  99
+  100
+  ... (truncated)
+
+Column: InvoiceId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64
+  65
+  66
+  67
+  68
+  69
+  70
+  71
+  72
+  73
+  74
+  75
+  76
+  77
+  78
+  79
+  80
+  81
+  82
+  83
+  84
+  85
+  86
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  96
+  97
+  98
+  99
+  100
+  ... (truncated)
+
+Column: TrackId
+  2
+  4
+  6
+  8
+  10
+  12
+  16
+  20
+  24
+  28
+  32
+  36
+  42
+  48
+  54
+  60
+  66
+  72
+  78
+  84
+  90
+  99
+  108
+  117
+  126
+  135
+  144
+  153
+  162
+  171
+  180
+  189
+  198
+  207
+  216
+  230
+  231
+  232
+  234
+  236
+  238
+  240
+  242
+  244
+  248
+  252
+  256
+  260
+  264
+  268
+  274
+  280
+  286
+  292
+  298
+  304
+  310
+  316
+  322
+  331
+  340
+  349
+  358
+  367
+  376
+  385
+  394
+  403
+  412
+  421
+  430
+  439
+  448
+  462
+  463
+  464
+  466
+  468
+  470
+  472
+  474
+  476
+  480
+  484
+  488
+  492
+  496
+  500
+  506
+  512
+  518
+  524
+  530
+  536
+  542
+  548
+  554
+  563
+  572
+  581
+  ... (truncated)
+
+Column: UnitPrice
+  0.99
+  1.99
+
+Column: Quantity
+  1
+
+============================================================
+FILE: MediaType.csv
+============================================================
+
+--- SCHEMA ---
+MediaTypeId : int64
+Name : str
+
+--- DISTINCT VALUES ---
+
+Column: MediaTypeId
+  1
+  2
+  3
+  4
+  5
+
+Column: Name
+  MPEG audio file
+  Protected AAC audio file
+  Protected MPEG-4 video file
+  Purchased AAC audio file
+  AAC audio file
+
+============================================================
+FILE: Playlist.csv
+============================================================
+
+--- SCHEMA ---
+PlaylistId : int64
+Name : str
+
+--- DISTINCT VALUES ---
+
+Column: PlaylistId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+
+Column: Name
+  Music
+  Movies
+  TV Shows
+  Audiobooks
+  90’s Music
+  Music Videos
+  Brazilian Music
+  Classical
+  Classical 101 - Deep Cuts
+  Classical 101 - Next Steps
+  Classical 101 - The Basics
+  Grunge
+  Heavy Metal Classic
+  On-The-Go 1
+
+============================================================
+FILE: PlaylistTrack.csv
+============================================================
+
+--- SCHEMA ---
+PlaylistId : int64
+TrackId : int64
+
+--- DISTINCT VALUES ---
+
+Column: PlaylistId
+  1
+  3
+  5
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+
+Column: TrackId
+  3402
+  3389
+  3390
+  3391
+  3392
+  3393
+  3394
+  3395
+  3396
+  3397
+  3398
+  3399
+  3400
+  3401
+  3336
+  3478
+  3375
+  3376
+  3377
+  3378
+  3379
+  3380
+  3381
+  3382
+  3383
+  3384
+  3385
+  3386
+  3387
+  3388
+  3365
+  3366
+  3367
+  3368
+  3369
+  3370
+  3371
+  3372
+  3373
+  3374
+  99
+  100
+  101
+  102
+  103
+  104
+  105
+  106
+  107
+  108
+  109
+  110
+  166
+  167
+  168
+  169
+  170
+  171
+  172
+  173
+  174
+  175
+  176
+  177
+  178
+  179
+  180
+  181
+  182
+  2591
+  2592
+  2593
+  2594
+  2595
+  2596
+  2597
+  2598
+  2599
+  2600
+  2601
+  2602
+  2603
+  2604
+  2605
+  2606
+  2607
+  2608
+  923
+  924
+  925
+  926
+  927
+  928
+  929
+  930
+  931
+  932
+  933
+  934
+  935
+  ... (truncated)
+
+============================================================
+FILE: Track.csv
+============================================================
+
+--- SCHEMA ---
+TrackId : int64
+Name : str
+AlbumId : int64
+MediaTypeId : int64
+GenreId : int64
+Composer : str
+Milliseconds : int64
+Bytes : int64
+UnitPrice : float64
+
+--- DISTINCT VALUES ---
+
+Column: TrackId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64
+  65
+  66
+  67
+  68
+  69
+  70
+  71
+  72
+  73
+  74
+  75
+  76
+  77
+  78
+  79
+  80
+  81
+  82
+  83
+  84
+  85
+  86
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  96
+  97
+  98
+  99
+  100
+  ... (truncated)
+
+Column: Name
+  For Those About To Rock (We Salute You)
+  Balls to the Wall
+  Fast As a Shark
+  Restless and Wild
+  Princess of the Dawn
+  Put The Finger On You
+  Let's Get It Up
+  Inject The Venom
+  Snowballed
+  Evil Walks
+  C.O.D.
+  Breaking The Rules
+  Night Of The Long Knives
+  Spellbound
+  Go Down
+  Dog Eat Dog
+  Let There Be Rock
+  Bad Boy Boogie
+  Problem Child
+  Overdose
+  Hell Ain't A Bad Place To Be
+  Whole Lotta Rosie
+  Walk On Water
+  Love In An Elevator
+  Rag Doll
+  What It Takes
+  Dude (Looks Like A Lady)
+  Janie's Got A Gun
+  Cryin'
+  Amazing
+  Blind Man
+  Deuces Are Wild
+  The Other Side
+  Crazy
+  Eat The Rich
+  Angel
+  Livin' On The Edge
+  All I Really Want
+  You Oughta Know
+  Perfect
+  Hand In My Pocket
+  Right Through You
+  Forgiven
+  You Learn
+  Head Over Feet
+  Mary Jane
+  Ironic
+  Not The Doctor
+  Wake Up
+  You Oughta Know (Alternate)
+  We Die Young
+  Man In The Box
+  Sea Of Sorrow
+  Bleed The Freak
+  I Can't Remember
+  Love, Hate, Love
+  It Ain't Like That
+  Sunshine
+  Put You Down
+  Confusion
+  I Know Somethin (Bout You)
+  Real Thing
+  Desafinado
+  Garota De Ipanema
+  Samba De Uma Nota Só (One Note Samba)
+  Por Causa De Você
+  Ligia
+  Fotografia
+  Dindi (Dindi)
+  Se Todos Fossem Iguais A Você (Instrumental)
+  Falando De Amor
+  Angela
+  Corcovado (Quiet Nights Of Quiet Stars)
+  Outra Vez
+  O Boto (Bôto)
+  Canta, Canta Mais
+  Enter Sandman
+  Master Of Puppets
+  Harvester Of Sorrow
+  The Unforgiven
+  Sad But True
+  Creeping Death
+  Wherever I May Roam
+  Welcome Home (Sanitarium)
+  Cochise
+  Show Me How to Live
+  Gasoline
+  What You Are
+  Like a Stone
+  Set It Off
+  Shadow on the Sun
+  I am the Highway
+  Exploder
+  Hypnotize
+  Bring'em Back Alive
+  Light My Way
+  Getaway Car
+  The Last Remaining Light
+  Your Time Has Come
+  Out Of Exile
+  ... (truncated)
+
+Column: AlbumId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  45
+  46
+  47
+  48
+  49
+  50
+  51
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64
+  65
+  66
+  67
+  68
+  69
+  70
+  71
+  72
+  73
+  74
+  75
+  76
+  77
+  78
+  79
+  80
+  81
+  82
+  83
+  84
+  85
+  86
+  87
+  88
+  89
+  90
+  91
+  92
+  93
+  94
+  95
+  96
+  97
+  98
+  99
+  100
+  ... (truncated)
+
+Column: MediaTypeId
+  1
+  2
+  3
+  4
+  5
+
+Column: GenreId
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+
+Column: Composer
+  Angus Young, Malcolm Young, Brian Johnson
+  F. Baltes, S. Kaufman, U. Dirkscneider & W. Hoffman
+  F. Baltes, R.A. Smith-Diesel, S. Kaufman, U. Dirkscneider & W. Hoffman
+  Deaffy & R.A. Smith-Diesel
+  AC/DC
+  Steven Tyler, Joe Perry, Jack Blades, Tommy Shaw
+  Steven Tyler, Joe Perry
+  Steven Tyler, Joe Perry, Jim Vallance, Holly Knight
+  Steven Tyler, Joe Perry, Desmond Child
+  Steven Tyler, Tom Hamilton
+  Steven Tyler, Joe Perry, Taylor Rhodes
+  Steven Tyler, Richie Supa
+  Steven Tyler, Jim Vallance
+  Steven Tyler, Joe Perry, Jim Vallance
+  Steven Tyler, Desmond Child
+  Steven Tyler, Joe Perry, Mark Hudson
+  Alanis Morissette & Glenn Ballard
+  Jerry Cantrell
+  Jerry Cantrell, Layne Staley
+  Jerry Cantrell, Michael Starr, Sean Kinney
+  Jerry Cantrell, Michael Starr, Layne Staley
+  Apocalyptica
+  Audioslave/Chris Cornell
+  Cornell, Commerford, Morello, Wilk
+  Berry Gordy, Jr./Janie Bradford
+  Enotris Johnson/Little Richard/Robert "Bumps" Blackwell
+  Larry Williams
+  Bert Russell/Phil Medley
+  Brian Holland/Freddie Gorman/Georgia Dobbins/Robert Bateman/William Garrett
+  Eddie Cochran/Jerry Capehart
+  Chuck Berry
+  Bo Diddley
+  Little Richard
+  Ned Fairchild
+  Billy Cobham
+  George Duke
+  Tony Iommi, Bill Ward, Geezer Butler, Ozzy Osbourne
+  Roy Z
+  Adrian Smith
+  Eddie Casillas/Roy Z
+  Eurreal Montgomery
+  Willie Dixon
+  Buddy Guy
+  Al Perkins/Willie Dixon
+  Sonny Boy Williamson [I]
+  Robert Geddins/Ron Badger/Sheldon Feinberg
+  Amos Blakemore/Buddy Guy
+  Jorge Ben
+  Tradicional
+  Tom Jobim - Newton Mendoça
+  Caetano Veloso
+  Gilberto Gil
+  Chico Buarque
+  Peninha
+  Caetano Veloso - Waly Salomão
+  Caetano Veloso - Djavan
+  David Corrêa - Paulinho Carvalho - Carlos Sena - Bira do Ponto
+  Fausto Nilo - Armandinho
+  Chico Science
+  Bino Farias/Da Gama/Lazão/Pedro Luis/Toni Garrido
+  Da Gama/Toni Garrido
+  Herbert Vianna
+  Bino Farias/Da Gama/Henry Lawes/Lazão/Toni Garrido/Winston Foser-Vers
+  Bernardo Vilhena/Bino Farias/Da Gama/Lazão/Toni Garrido
+  Bino Farias/Da Gama/Lazão/Toni Garrido
+  Marisa Monte/Nando Reis
+  Bino Farias/Da Gamma/Lazão/Rás Bernard
+  Da Gama/Lazão/Rás Bernardo
+  Bino Farias/Da Gama/Lazão/Rás Bernardo
+  Bernardo Vilhena/Da Gama/Lazão
+  Bernardo Vilhena/Bino/Da Gama/Lazao/Toni Garrido
+  Da Gama/Lazao/Toni Garrido
+  Bino/Da Gama/Ras Bernardo
+  Harry Lawes/Winston Foster-Vers
+  Bino/Da Gamma/Lazao/Toni Garrido
+  Bino/Da Gama/Toni Garrido
+  Bino/Da Gama/Lazao/Ras Bernardo
+  Cidade Negra
+  Lulu Santos
+  Bernardo Vilhena/Da Gama/Lazao
+  Fausto Nilo/Moraes Moreira/Pepeu Gomes
+  Cassiano Costa/Cintia Maviane/J.F./Lucas Costa
+  Augusto Conceição/Chiclete Com Banana
+  Cal Adan/Paulo Levi
+  Paulo Levi/W. Rangel
+  Jorge Cardoso/Pierre Onasis
+  Fábio Nolasco/Gal Sales/Ivan Brasil
+  Garay, Ricardo Engels/Luca Predabom/Ludwig, Carlos Henrique/Maurício Vieira
+  Luiz Wanderley/Paulo Levi
+  Do Vale, Valverde/Gal Oliveira/Luciano Pinto
+  Cal Adan/Ferrugem/Julinho Carioca/Tríona Ní Dhomhnaill
+  Lucina/Luli
+  Cal Adan/Del Rey, Tension/Edu Casanova
+  Jauperi/Zeu Góes
+  Adriano Bernandes/Edmar Neves
+  J B Lenoir/Willie Dixon
+  Jimmy Page/John Bonham/John Paul Jones
+  Jimmy Page
+  Jimmy Page/John Bonham/John Estes/John Paul Jones/Robert Plant
+  Jimmy Page/Robert Plant
+  ... (truncated)
+
+Column: Milliseconds
+  343719
+  342562
+  230619
+  252051
+  375418
+  205662
+  233926
+  210834
+  203102
+  263497
+  199836
+  263288
+  205688
+  270863
+  331180
+  215196
+  366654
+  267728
+  325041
+  369319
+  254380
+  323761
+  295680
+  321828
+  264698
+  310622
+  264855
+  330736
+  309263
+  356519
+  240718
+  215875
+  244375
+  316656
+  251036
+  307617
+  381231
+  284891
+  249234
+  188133
+  221570
+  176117
+  300355
+  239699
+  267493
+  280607
+  229825
+  227631
+  293485
+  491885
+  152084
+  286641
+  349831
+  241946
+  222955
+  387134
+  277577
+  284969
+  196231
+  344163
+  261955
+  243879
+  185338
+  285048
+  137273
+  169900
+  251977
+  129227
+  253178
+  134948
+  219663
+  169508
+  126511
+  366837
+  271856
+  221701
+  436453
+  374543
+  322925
+  288208
+  308035
+  369345
+  350197
+  222380
+  277890
+  279457
+  249391
+  294034
+  263262
+  343457
+  334942
+  206053
+  206628
+  329534
+  303595
+  299598
+  317492
+  255529
+  291291
+  279484
+  ... (truncated)
+
+Column: Bytes
+  11170334
+  5510424
+  3990994
+  4331779
+  6290521
+  6713451
+  7636561
+  6852860
+  6599424
+  8611245
+  6566314
+  8596840
+  6706347
+  8817038
+  10847611
+  7032162
+  12021261
+  8776140
+  10617116
+  12066294
+  8331286
+  10547154
+  9719579
+  10552051
+  8675345
+  10144730
+  8679940
+  10869391
+  10056995
+  11616195
+  7877453
+  7074167
+  7983270
+  10402398
+  8262039
+  9989331
+  12374569
+  9375567
+  8196916
+  6145404
+  7224246
+  5793082
+  9753256
+  7824837
+  8758008
+  9163588
+  7598866
+  7604601
+  9703359
+  16008629
+  4925362
+  9310272
+  11316328
+  7847716
+  7302550
+  12575396
+  8993793
+  9216057
+  6420530
+  11183647
+  8497788
+  7937731
+  5990473
+  9348428
+  4535401
+  5536496
+  8226934
+  4198774
+  8149148
+  4393377
+  7121735
+  5574957
+  6687994
+  4110053
+  12089673
+  8719426
+  7286305
+  14375310
+  12372536
+  10422447
+  9405526
+  10110980
+  12033110
+  11406431
+  5339931
+  6672176
+  6709793
+  5988186
+  7059624
+  6321091
+  8245793
+  8041411
+  4948095
+  4961887
+  7911634
+  7289084
+  7193162
+  7622615
+  8273592
+  9506571
+  ... (truncated)
+
+Column: UnitPrice
+  0.99
+  1.99
