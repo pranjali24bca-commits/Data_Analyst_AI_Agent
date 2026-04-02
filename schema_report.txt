@@ -1,0 +1,628 @@
+
+============================================================
+FILE: Album.csv
+============================================================
+
+--- SCHEMA ---
+AlbumId : int64
+Title : str
+ArtistId : int64
+
+--- DISTINCT VALUES ---
+
+Column: AlbumId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: Title
+  For Those About To Rock We Salute You
+  Balls to the Wall
+  Restless and Wild
+  Let There Be Rock
+  Big Ones
+  ... (truncated)
+
+Column: ArtistId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+============================================================
+FILE: Artist.csv
+============================================================
+
+--- SCHEMA ---
+ArtistId : int64
+Name : str
+
+--- DISTINCT VALUES ---
+
+Column: ArtistId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: Name
+  AC/DC
+  Accept
+  Aerosmith
+  Alanis Morissette
+  Alice In Chains
+  ... (truncated)
+
+============================================================
+FILE: Customer.csv
+============================================================
+
+--- SCHEMA ---
+CustomerId : int64
+FirstName : str
+LastName : str
+Company : str
+Address : str
+City : str
+State : str
+Country : str
+PostalCode : str
+Phone : str
+Fax : str
+Email : str
+SupportRepId : int64
+
+--- DISTINCT VALUES ---
+
+Column: CustomerId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: FirstName
+  Luís
+  Leonie
+  François
+  Bjørn
+  František
+  ... (truncated)
+
+Column: LastName
+  Gonçalves
+  Köhler
+  Tremblay
+  Hansen
+  Wichterlová
+  ... (truncated)
+
+Column: Company
+  Embraer - Empresa Brasileira de Aeronáutica S.A.
+  JetBrains s.r.o.
+  Woodstock Discos
+  Banco do Brasil S.A.
+  Riotur
+  ... (truncated)
+
+Column: Address
+  Av. Brigadeiro Faria Lima, 2170
+  Theodor-Heuss-Straße 34
+  1498 rue Bélanger
+  Ullevålsveien 14
+  Klanova 9/506
+  ... (truncated)
+
+Column: City
+  São José dos Campos
+  Stuttgart
+  Montréal
+  Oslo
+  Prague
+  ... (truncated)
+
+Column: State
+  SP
+  QC
+  RJ
+  DF
+  AB
+  ... (truncated)
+
+Column: Country
+  Brazil
+  Germany
+  Canada
+  Norway
+  Czech Republic
+  ... (truncated)
+
+Column: PostalCode
+  12227-000
+  70174
+  H2G 1A7
+  0171
+  14700
+  ... (truncated)
+
+Column: Phone
+  +55 (12) 3923-5555
+  +49 0711 2842222
+  +1 (514) 721-4711
+  +47 22 44 22 22
+  +420 2 4172 5555
+  ... (truncated)
+
+Column: Fax
+  +55 (12) 3923-5566
+  +420 2 4172 5555
+  +55 (11) 3033-4564
+  +55 (11) 3055-8131
+  +55 (21) 2271-7070
+  ... (truncated)
+
+Column: Email
+  luisg@embraer.com.br
+  leonekohler@surfeu.de
+  ftremblay@gmail.com
+  bjorn.hansen@yahoo.no
+  frantisekw@jetbrains.com
+  ... (truncated)
+
+Column: SupportRepId
+  3
+  5
+  4
+
+============================================================
+FILE: Employee.csv
+============================================================
+
+--- SCHEMA ---
+EmployeeId : int64
+LastName : str
+FirstName : str
+Title : str
+ReportsTo : float64
+BirthDate : str
+HireDate : str
+Address : str
+City : str
+State : str
+Country : str
+PostalCode : str
+Phone : str
+Fax : str
+Email : str
+
+--- DISTINCT VALUES ---
+
+Column: EmployeeId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: LastName
+  Adams
+  Edwards
+  Peacock
+  Park
+  Johnson
+  ... (truncated)
+
+Column: FirstName
+  Andrew
+  Nancy
+  Jane
+  Margaret
+  Steve
+  ... (truncated)
+
+Column: Title
+  General Manager
+  Sales Manager
+  Sales Support Agent
+  IT Manager
+  IT Staff
+
+Column: ReportsTo
+  1.0
+  2.0
+  6.0
+
+Column: BirthDate
+  1962-02-18 00:00:00
+  1958-12-08 00:00:00
+  1973-08-29 00:00:00
+  1947-09-19 00:00:00
+  1965-03-03 00:00:00
+  ... (truncated)
+
+Column: HireDate
+  2002-08-14 00:00:00
+  2002-05-01 00:00:00
+  2002-04-01 00:00:00
+  2003-05-03 00:00:00
+  2003-10-17 00:00:00
+  ... (truncated)
+
+Column: Address
+  11120 Jasper Ave NW
+  825 8 Ave SW
+  1111 6 Ave SW
+  683 10 Street SW
+  7727B 41 Ave
+  ... (truncated)
+
+Column: City
+  Edmonton
+  Calgary
+  Lethbridge
+
+Column: State
+  AB
+
+Column: Country
+  Canada
+
+Column: PostalCode
+  T5K 2N1
+  T2P 2T3
+  T2P 5M5
+  T2P 5G3
+  T3B 1Y7
+  ... (truncated)
+
+Column: Phone
+  +1 (780) 428-9482
+  +1 (403) 262-3443
+  +1 (403) 263-4423
+  1 (780) 836-9987
+  +1 (403) 246-9887
+  ... (truncated)
+
+Column: Fax
+  +1 (780) 428-3457
+  +1 (403) 262-3322
+  +1 (403) 262-6712
+  +1 (403) 263-4289
+  1 (780) 836-9543
+  ... (truncated)
+
+Column: Email
+  andrew@chinookcorp.com
+  nancy@chinookcorp.com
+  jane@chinookcorp.com
+  margaret@chinookcorp.com
+  steve@chinookcorp.com
+  ... (truncated)
+
+============================================================
+FILE: Genre.csv
+============================================================
+
+--- SCHEMA ---
+GenreId : int64
+Name : str
+
+--- DISTINCT VALUES ---
+
+Column: GenreId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: Name
+  Rock
+  Jazz
+  Metal
+  Alternative & Punk
+  Rock And Roll
+  ... (truncated)
+
+============================================================
+FILE: Invoice.csv
+============================================================
+
+--- SCHEMA ---
+InvoiceId : int64
+CustomerId : int64
+InvoiceDate : str
+BillingAddress : str
+BillingCity : str
+BillingState : str
+BillingCountry : str
+BillingPostalCode : str
+Total : float64
+
+--- DISTINCT VALUES ---
+
+Column: InvoiceId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: CustomerId
+  2
+  4
+  8
+  14
+  23
+  ... (truncated)
+
+Column: InvoiceDate
+  2009-01-01 00:00:00
+  2009-01-02 00:00:00
+  2009-01-03 00:00:00
+  2009-01-06 00:00:00
+  2009-01-11 00:00:00
+  ... (truncated)
+
+Column: BillingAddress
+  Theodor-Heuss-Straße 34
+  Ullevålsveien 14
+  Grétrystraat 63
+  8210 111 ST NW
+  69 Salem Street
+  ... (truncated)
+
+Column: BillingCity
+  Stuttgart
+  Oslo
+  Brussels
+  Edmonton
+  Boston
+  ... (truncated)
+
+Column: BillingState
+  AB
+  MA
+  Dublin
+  CA
+  WA
+  ... (truncated)
+
+Column: BillingCountry
+  Germany
+  Norway
+  Belgium
+  Canada
+  USA
+  ... (truncated)
+
+Column: BillingPostalCode
+  70174
+  0171
+  1000
+  T6G 2C7
+  2113
+  ... (truncated)
+
+Column: Total
+  1.98
+  3.96
+  5.94
+  8.91
+  13.86
+  ... (truncated)
+
+============================================================
+FILE: InvoiceLine.csv
+============================================================
+
+--- SCHEMA ---
+InvoiceLineId : int64
+InvoiceId : int64
+TrackId : int64
+UnitPrice : float64
+Quantity : int64
+
+--- DISTINCT VALUES ---
+
+Column: InvoiceLineId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: InvoiceId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: TrackId
+  2
+  4
+  6
+  8
+  10
+  ... (truncated)
+
+Column: UnitPrice
+  0.99
+  1.99
+
+Column: Quantity
+  1
+
+============================================================
+FILE: MediaType.csv
+============================================================
+
+--- SCHEMA ---
+MediaTypeId : int64
+Name : str
+
+--- DISTINCT VALUES ---
+
+Column: MediaTypeId
+  1
+  2
+  3
+  4
+  5
+
+Column: Name
+  MPEG audio file
+  Protected AAC audio file
+  Protected MPEG-4 video file
+  Purchased AAC audio file
+  AAC audio file
+
+============================================================
+FILE: Playlist.csv
+============================================================
+
+--- SCHEMA ---
+PlaylistId : int64
+Name : str
+
+--- DISTINCT VALUES ---
+
+Column: PlaylistId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: Name
+  Music
+  Movies
+  TV Shows
+  Audiobooks
+  90’s Music
+  ... (truncated)
+
+============================================================
+FILE: PlaylistTrack.csv
+============================================================
+
+--- SCHEMA ---
+PlaylistId : int64
+TrackId : int64
+
+--- DISTINCT VALUES ---
+
+Column: PlaylistId
+  1
+  3
+  5
+  8
+  9
+  ... (truncated)
+
+Column: TrackId
+  3402
+  3389
+  3390
+  3391
+  3392
+  ... (truncated)
+
+============================================================
+FILE: Track.csv
+============================================================
+
+--- SCHEMA ---
+TrackId : int64
+Name : str
+AlbumId : int64
+MediaTypeId : int64
+GenreId : int64
+Composer : str
+Milliseconds : int64
+Bytes : int64
+UnitPrice : float64
+
+--- DISTINCT VALUES ---
+
+Column: TrackId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: Name
+  For Those About To Rock (We Salute You)
+  Balls to the Wall
+  Fast As a Shark
+  Restless and Wild
+  Princess of the Dawn
+  ... (truncated)
+
+Column: AlbumId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: MediaTypeId
+  1
+  2
+  3
+  4
+  5
+
+Column: GenreId
+  1
+  2
+  3
+  4
+  5
+  ... (truncated)
+
+Column: Composer
+  Angus Young, Malcolm Young, Brian Johnson
+  F. Baltes, S. Kaufman, U. Dirkscneider & W. Hoffman
+  F. Baltes, R.A. Smith-Diesel, S. Kaufman, U. Dirkscneider & W. Hoffman
+  Deaffy & R.A. Smith-Diesel
+  AC/DC
+  ... (truncated)
+
+Column: Milliseconds
+  343719
+  342562
+  230619
+  252051
+  375418
+  ... (truncated)
+
+Column: Bytes
+  11170334
+  5510424
+  3990994
+  4331779
+  6290521
+  ... (truncated)
+
+Column: UnitPrice
+  0.99
+  1.99
